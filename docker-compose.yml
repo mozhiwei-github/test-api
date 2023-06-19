@@ -1,0 +1,6 @@
+version: "3"
+
+services:
+  duba-interface:
+    image: duba/interface:${INTERFACE_IMAGE_VERSION}
+    command: python3 run_interface_test.py ${INTERFACE_RUN_PARAMS}

@@ -1,0 +1,29 @@
+duba-interface: # 项目任务名称（与容器调度服务的任务名一致）
+  desc: "毒霸接口自动化测试"  # 项目描述
+  root_path: "duba"  # 项目根目录
+  case_path: "cases"  # 测试用例目录（相对于项目根目录）
+  config_path: "config"  # 测试用例配置目录（相对于项目根目录）
+
+kwallpaper-interface:
+  desc: "壁纸接口自动化测试"
+  root_path: "kwallpaper"
+  case_path: "cases"
+  config_path: "config"
+
+ktemplate-interface:
+  desc: "完美办公接口自动化测试"
+  root_path: "ktemplate"
+  case_path: "cases"
+  config_path: "config"
+
+iti-interface:
+  desc: "威胁情报中心接口自动化测试"
+  root_path: "iti"
+  case_path: "cases"
+  config_path: "config"
+
+keniu_web-interface:
+  desc: "可牛资源站接口自动化测试"
+  root_path: "keniu_web"
+  case_path: "cases"
+  config_path: "config"

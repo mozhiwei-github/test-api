@@ -1,0 +1,13 @@
+# git
+.git
+
+# ide
+.idea
+
+# python
+venv
+
+# project
+.pytest_cache
+log
+Outputs
