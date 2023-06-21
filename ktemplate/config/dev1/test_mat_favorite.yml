@@ -1,0 +1,14 @@
+# 测试用例文件
+file: test_mat_favorite.py
+# 测试用例类（用例类参数和用例函数参数都为空时，则运行整个用例文件）
+class: TestMatFavorite
+# 测试用例函数（仅用例函数参数为空时，则运行整个用例类）
+case: test_mat_favorite_success
+# 描述
+desc: 【完美办公】素材收藏-预期成功
+params:
+  # 接口地址
+  server_origin: http://test-loveoffice.zhhainiao.com
+  # 创建会员账号类型
+  user_identity:
+    - NON_VIP

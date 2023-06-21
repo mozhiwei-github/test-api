@@ -1,0 +1,11 @@
+# 测试用例文件
+file: test_pcsoft_api_page_config_week-rank_download.py
+# 测试用例类（用例类参数和用例函数参数都为空时，则运行整个用例文件）
+class: ''
+# 测试用例函数（仅用例函数参数为空时，则运行整个用例类）
+case: ''
+# 描述
+desc: 可牛资源站 - 排行榜（周下载）
+params:
+  # 正式服host
+  server_host: "https://api-softseo-srv.keniu.com"

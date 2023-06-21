@@ -1,0 +1,33 @@
+# 测试用例文件
+file: test_pay.py
+# 测试用例类（用例类参数和用例函数参数都为空时，则运行整个用例文件）
+class: TestPay
+# 测试用例函数（仅用例函数参数为空时，则运行整个用例类）
+case: test_pay_success
+# 描述
+desc: 会员支付-预期成功
+params:
+  # 接口版本
+  product_type: []
+  # 创建帐号接口地址
+  account_origin: http://newvip-dev2.duba.net
+  # 用户接口地址
+  user_origin: http://newvip-dev2.duba.net
+  # 网关接口地址
+  gateway_origin: http://newvip-dev-gw.duba.net
+  # 支付接口地址
+  pay_origin: http://newvip-dev2.duba.net
+  # 第三方支付Mock接口地址
+  fake_pay_origin: http://fakepayserver.aix-test-k8s.iweikan.cn
+  # 创建会员账号类型
+  user_identity: []
+  # 支付类型（目前服务端仅Mock了微信扫码支付的类型）
+  pay_type:
+    - WECHAT_QRCODE
+  # 会员套餐
+  pay_setting:  []
+  # 会员套餐VIP过期时间误差值
+  vip_ex_date_diff_seconds: 10
+  # 支付与查询间隔时间（秒）
+  query_sleep_seconds: 5
+

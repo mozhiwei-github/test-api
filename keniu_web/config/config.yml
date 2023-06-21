@@ -1,0 +1,4 @@
+- path: "dev1"
+  display_name: "正式服"
+- path: "dev2"
+  display_name: "测试服"

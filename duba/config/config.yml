@@ -1,0 +1,6 @@
+- path: "dev1"
+  display_name: "测试服1"
+- path: "dev2"
+  display_name: "测试服2"
+- path: "dev3"
+  display_name: "测试服3"
